@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="33px" viewBox="0 0 18 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>blockstart_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#63EAB5" offset="0%"></stop>
+            <stop stop-color="#5850C1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#5323AE" offset="0%"></stop>
+            <stop stop-color="#68DBFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation" transform="translate(-163.000000, -16.000000)">
+            <g id="Group-3">
+                <g transform="translate(163.000000, 16.000000)">
+                    <g id="blockstart_icon">
+                        <g id="Group-2" transform="translate(0.809332, 0.000000)">
+                            <g id="Group">
+                                <polygon id="Triangle" fill="url(#linearGradient-1)" points="11.3924443 0.0259925717 6.58226405 14.0571209 16.4030488 14.0571209 0 18.9344262"></polygon>
+                                <polygon id="Triangle-2" fill="url(#linearGradient-2)" points="11.3923775 0.0259672131 9.37985154 14.0571885 6.58219724 14.0571885"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-2" transform="translate(8.976617, 23.333433) rotate(-180.000000) translate(-8.976617, -23.333433) translate(0.759226, 13.674897)">
+                            <g id="Group">
+                                <polygon id="Triangle" fill="url(#linearGradient-1)" points="11.3924443 0.0259925717 6.58226405 14.0571209 16.4030488 14.0571209 0 18.9344262"></polygon>
+                                <polygon id="Triangle-2" fill="url(#linearGradient-2)" points="11.3923775 0.0259672131 9.37985154 14.0571885 6.58219724 14.0571885"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

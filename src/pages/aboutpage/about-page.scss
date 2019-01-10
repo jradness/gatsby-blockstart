@@ -1,0 +1,10 @@
+@import "../../sass/mixin";
+@import "../../sass/theme";
+
+.text-wrapper {
+  padding: 2rem 12rem;
+}
+
+.hr-line {
+  @include line(.5px, $gray-dark, 80%);
+}

@@ -1,0 +1,35 @@
+@import "../../sass/theme";
+
+.blockstart-footer {
+  background-color: $gray;
+  padding: 2rem 0;
+  .footer-container {
+    display: flex;
+    .link-stack {
+      padding-right: 3rem;
+      .link-titles {
+        color: $dark-text;
+        font-family: $blockstart-bold;
+        text-transform: uppercase;
+      }
+      .footer-ul {
+        list-style: none;
+        margin-left: 0;
+        font-family: $blockstart-regular;
+        a {
+          text-decoration: none;
+          .list-link {
+            color: $dark-text;
+            font-family: $blockstart-regular;
+            line-height: 2;
+            &:hover {
+              transition: filter .2s ease-in-out;
+              color: #676c7e;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

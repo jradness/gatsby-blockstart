@@ -1,0 +1,8 @@
+@mixin line($pw, $color, $width, $mt: 1rem, $mb: 1rem) {
+  border: $pw solid $color;
+  width: $width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $mt;
+  margin-bottom: $mb;
+}

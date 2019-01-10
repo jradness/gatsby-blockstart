@@ -1,0 +1,24 @@
+.code-box {
+  background-color: white;
+  border-radius: 0.3em;
+  overflow: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+  height: 350px;
+  max-width: 475px;
+}
+
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ */
+.code-box pre[class*="language"] {
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0;
+  padding: 1rem 0;
+  overflow: initial;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}

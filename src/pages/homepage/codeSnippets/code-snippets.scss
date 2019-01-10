@@ -1,0 +1,15 @@
+@import "../../../sass/theme";
+
+.code-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  .tech-img-wrapper {
+    .tech-text {
+      font-size: 1.875rem;
+      color: $primary-dark;
+      margin: .5rem 0 0;
+    }
+  }
+}

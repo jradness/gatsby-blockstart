@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>cube-bullet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.58,8.06 C0.58,7.07 1.11,6.15 1.96,5.66 L10.54,0.71 C11.39,0.21 12.46,0.21 13.31,0.71 L21.89,5.66 C22.74,6.15 23.27,7.07 23.27,8.06 L23.27,17.96 C23.27,18.95 22.74,19.87 21.89,20.36 L13.31,25.31 C12.46,25.8 11.39,25.8 10.54,25.31 L1.96,20.36 C1.11,19.87 0.58,18.95 0.58,17.96 L0.58,8.06 Z" id="path-1"></path>
+        <linearGradient x1="50.539673%" y1="75.4635372%" x2="50.637711%" y2="75.4635372%" id="linearGradient-3">
+            <stop stop-color="#12C2E9" offset="0%"></stop>
+            <stop stop-color="#7C1EDC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M9.92,0.09 C10.28,0.09 10.63,0.18 10.93,0.36 L19.51,5.31 L19.6,5.46 L19.51,5.61 L10.93,10.56 C10.32,10.91 9.53,10.91 8.91,10.56 L0.34,5.61 L0.25,5.46 L0.34,5.31 L8.91,0.36 C9.22,0.18 9.57,0.09 9.92,0.09 Z" id="path-4"></path>
+        <linearGradient x1="50.2349759%" y1="75.1071848%" x2="50.911744%" y2="75.1071848%" id="linearGradient-6">
+            <stop stop-color="#7C1EDC" offset="0%"></stop>
+            <stop stop-color="#12C2E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Blockstart---Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blockstart-Plans" transform="translate(-821.000000, -1098.000000)">
+            <g id="Group-16" transform="translate(821.000000, 1098.000000)">
+                <g id="Group-15">
+                    <g id="cube-bullet">
+                        <g id="Group-29882">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-29881"></g>
+                            <polygon id="Fill-29880" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="-1983.94 464 1961.06 464 1961.06 -1374.04 -1983.94 -1374.04"></polygon>
+                        </g>
+                        <g id="Group-29888" transform="translate(2.000000, 1.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-29887"></g>
+                            <polygon id="Fill-29886" fill="url(#linearGradient-6)" mask="url(#mask-5)" points="-1985.94 463 1959.06 463 1959.06 -1375.04 -1985.94 -1375.04"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+@import "../../sass/theme";
+
+.btn-wrapper {
+  .learn-btn, .plans-btn {
+    color: white;
+    padding: .8rem 3rem;
+    cursor: pointer;
+  }
+  .learn-btn {
+    background-color: $teal-main;
+    margin-right: 1rem;
+  }
+  .plans-btn {
+    background-color: $primary;
+  }
+}

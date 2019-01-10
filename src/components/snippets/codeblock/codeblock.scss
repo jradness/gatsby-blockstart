@@ -1,0 +1,121 @@
+@import "../../../sass/theme";
+
+pre.box {
+  background: $blockBG;
+  color: $hl-1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin-bottom: 0;
+  height: 280px;
+  width: 500px;
+  border-radius: 0 3px 0 0;
+  overflow: hidden;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  font-size: .75rem;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.tab {
+  padding-top: 5px;
+  font-size: .75rem;
+  font-family: $blockstart-semi-bold;
+  width:120px;
+  overflow:hidden;
+  float:left;
+  margin:0 -15px 0 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tab-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E1E2EA;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 0 2px  #fff inset;
+  padding: 5px 0 3px;
+}
+
+.tab.active {
+  z-index:40;
+  position:relative;
+}
+.tab.active .tab-box{background-color: #fff;
+  box-shadow: 0 0 2px 0 #fff inset;
+
+}
+
+.code-footer {
+  background-color: #E1E2EA;
+  width: 500px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+  font-size: .85rem;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+li {
+  display: block;
+}
+
+ol > li:before {
+  content: counter(item) "  ";
+  counter-increment: item;
+  color: $hl-comment;
+}
+
+li.dent:before {
+  margin-right: 1rem;
+}
+
+ul.code-indent {
+  list-style: none;
+}
+
+@media (max-width: 599px) {
+  pre.box {
+    margin: 0 auto;
+    width: 370px;
+    overflow: auto;
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .code-footer {
+    width: 370px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  pre.box {
+    margin: 0 auto;
+    width: 310px;
+  }
+  .tabs {
+    margin-left: 30px;
+    .tab {
+      width: 100px;
+    }
+  }
+}
+

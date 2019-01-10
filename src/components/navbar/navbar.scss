@@ -1,0 +1,46 @@
+@import "../../sass/theme";
+
+.navbar {
+  transition: box-shadow .5s ease-in-out, background-color .5s ease-in-out;
+  border-radius: 0;
+  box-shadow: 0 2px 0 0 transparent;
+  padding: 0 !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  .nav-container {
+    display: flex;
+    align-items: center;
+    .nav-item {
+      text-decoration: none;
+      color: $primary;
+      font-size: 1rem;
+      font-family: $blockstart-regular;
+      padding: 0 2rem;
+      &:hover {
+        filter: brightness(80%);
+      }
+    }
+    .disabled {
+      color: $gray-dark;
+      text-decoration: line-through;
+      &:hover {
+        color: $gray-dark;
+      }
+    }
+    .brand-wrapper {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      .brand-logo {
+        padding-right: 10px;
+      }
+      .brand-item {
+        font-size: 1.25rem;
+        font-family: $blockstart-bold;
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+  }
+}

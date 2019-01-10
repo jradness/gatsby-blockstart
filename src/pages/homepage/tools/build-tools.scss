@@ -1,0 +1,15 @@
+@import "../../../sass/theme";
+
+.tool-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  .tools-img {
+    z-index: -1;
+  }
+  .info-box {
+    max-width: 500px;
+    position: relative;
+    bottom: 90px;
+  }
+}
